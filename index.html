@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mg_components</title>
+
+  <!-- Global FontAwesome CSS Import (Only once) -->
+  <link rel="stylesheet"
+    href="./libs/fontawesome/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "lit": "./libs/lit.min.js"
+      }
+    }
+  </script>
+
+
+  <script type="module">
+    import './inputs/MgButton.js';
+    import './decoration/MgFaIcon.js';  
+  </script>
+
+</head>
+
+<body>
+
+  <mg-button>Button</mg-button>
+  <mg-fa-icon icon_name="github" icon_variant="brands" ></mg-fa-icon>
+  
+</body>
+
+</html>
